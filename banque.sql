@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `banque`.`compte` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
-INSERT INTO `banque`.`user`
+INSERT INTO `banque`.`User`
 (`login`,
 `password`,
 `nom`,
